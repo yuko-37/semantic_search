@@ -1,0 +1,13 @@
+name: semantic_search
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.13
+  - pip
+  - pip:
+      - langchain-openai
+      - langchain-chroma
+      - langchain-core
+      - langchain-text-splitters
+      - langchain-ollama

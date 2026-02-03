@@ -1,1 +1,8 @@
+# Custom
+translation_db*
+*.tmx
+documents
+
+
 .idea/
+.ipynb_checkpoints

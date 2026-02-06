@@ -1,8 +1,7 @@
-# Custom
-translation_db*
-*.tmx
-documents
-
-
+# Mac OS
+.DS_Store
+# Intellij Idea
 .idea/
+# Python
 .ipynb_checkpoints
+__pycache__

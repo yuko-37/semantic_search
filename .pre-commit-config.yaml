@@ -27,4 +27,4 @@ repos:
           entry: pytest tests/unit -q -x
           language: system
           pass_filenames: false
-          stages: [ pre-commit ]
+          stages: [ pre-push ]

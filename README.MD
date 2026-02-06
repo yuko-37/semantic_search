@@ -33,3 +33,18 @@ Start the Ollama server before executing those notebooks:<br>
 ```bash 
 ollama serve
 ```
+
+### 4. For Development
+Use conda install dev tool on your base environment
+```bash
+conda install -c conda-forge ruff black pre-commit
+```
+or
+```commandline
+pip install ruff black pre-commit
+```
+to install dev tools.
+Run the following command to create git hook for
+```commandline
+pre-commit install
+```

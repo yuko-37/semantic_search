@@ -35,15 +35,14 @@ ollama serve
 ```
 
 ### 4. For Development
-Use conda install dev tool on your base environment
+Use conda to install dev tool on your base environment
 ```bash
 conda install -c conda-forge ruff black pre-commit
 ```
-or
+or pip install
 ```commandline
 pip install ruff black pre-commit
 ```
-to install dev tools.
 Run the following command to create git hook for
 ```commandline
 pre-commit install

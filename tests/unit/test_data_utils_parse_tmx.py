@@ -33,7 +33,7 @@ def xml_fixture():
     </tmx>"""
     with tempfile.NamedTemporaryFile(delete=True) as tmp:
         tmp.write(xml_content.encode("utf-8"))
-        tmp.flush()  # Ensure the content is written
+        tmp.flush()
         print(tmp.name)
         yield tmp.name
 

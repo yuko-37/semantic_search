@@ -1,5 +1,11 @@
 ### Description
-Project that processes xml files and push them in vector storage to enable semantic search.
+This project implements a semantic search pipeline for real-world XML data.
+
+The data is first parsed and cleaned to handle inconsistencies and errors. Relevant information is extracted and preprocessed, followed by exploratory analysis of data distribution.
+
+Different text chunking strategies were tested to determine an effective way of splitting documents for embedding. The processed text chunks are then stored in a vector database using ChromaDB to enable semantic search.
+
+A simple interactive interface was built with Gradio to demonstrate the system, allowing users to input queries and retrieve the most relevant results.
 
 ### 1. Install Ollama
 Download and install Ollama by following the official documentation:<br/>

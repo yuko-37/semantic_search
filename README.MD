@@ -49,7 +49,7 @@ or pip install
 ```commandline
 pip install ruff black pre-commit
 ```
-Run the following command to create git hook for
+Run the following command to create git hook for running pre-commit checks before each commit
 ```commandline
 pre-commit install
 ```
